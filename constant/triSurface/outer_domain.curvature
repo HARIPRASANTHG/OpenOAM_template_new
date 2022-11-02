@@ -1,0 +1,26 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2206                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    arch        "LSB;label=32;scalar=64";
+    class       triSurfacePointScalarField;
+    location    "constant/triSurface";
+    object      outer_domain.curvature;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+value           nonuniform List<scalar> 
+8
+(VùT0[ÄÞ?4À³Y&^Ù?»¢Éo[¬Ü?DCþˆè!Ù?ÿ$Ë8·Ï?æ±ki—WÖ?m¾0?•pÅ?•¤¥\Ð?);
+
+
+// ************************************************************************* //

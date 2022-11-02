@@ -1,0 +1,6 @@
+rm -rf 0 1 2 3 ./constant/polyMesh/ ./constant/extendedFeatureEdgeMesh/ dynamicCode
+
+blockMesh | tee blockMesh.log
+surfaceFeatureExtract | tee surfaceFeatureExtract.log
+snappyHexMesh | tee snappyHexMesh.log
+
